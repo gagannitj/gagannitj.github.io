@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" media="screen" type="text/css">
-    <link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print" type="text/css">
+    <link rel="stylesheet" href="/assets/css/style.css?v=cda2659c135d75291837dbcfba2834ba06b304f0" media="screen" type="text/css">
+    <link rel="stylesheet" href="/assets/css/print.css" media="print" type="text/css">
 
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -18,7 +18,7 @@
   <body>
     <header>
       <div class="inner">
-        <a href="{{ '/' | absolute_url }}">
+        <a href="http://www.suntrailtravels.com/">
           <h1>Sun Trail Travels</h1>
         </a>
         <h2>Your travel companion in Ladakh!</h2>
@@ -28,7 +28,14 @@
     <div id="content-wrapper">
       <div class="inner clearfix">
         <section id="main-content">
-          {{ content }}
+          <p><img src="https://raw.githubusercontent.com/gagannitj/gagannitj.github.io/master/assets/images/Suntrails/ST1.jpg" alt="" /></p>
+
+<h2 id="our-packages">Our packages</h2>
+
+<p><img src="https://raw.githubusercontent.com/gagannitj/gagannitj.github.io/master/assets/images/Suntrails/cycle.jpg" alt="" />
+<img src="https://raw.githubusercontent.com/gagannitj/gagannitj.github.io/master/assets/images/Suntrails/cycle.jpg" alt="" /></p>
+
+
         </section>
 
         <aside id="sidebar">
@@ -40,17 +47,6 @@
       </div>
     </div>
 
-    {% if site.google_analytics %}
-      <script type="text/javascript">
-        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-      </script>
-      <script type="text/javascript">
-        try {
-          var pageTracker = _gat._getTracker("{{ site.google_analytics }}");
-        pageTracker._trackPageview();
-        } catch(err) {}
-      </script>
-    {% endif %}
+    
   </body>
 </html>
