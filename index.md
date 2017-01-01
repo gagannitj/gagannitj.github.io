@@ -4,11 +4,11 @@ layout: default
 
 ### Small image
 
-![](https://assets-cdn.github.com/images/icons/emoji/octocat.png)
+![](assets/images/logo_suntrails.jpg)
 
 ### Large image
 
-![](https://guides.github.com/activities/hello-world/branching.png)
+![](assets/images/ST1.jpg)
 
 
 ### Definition lists can be used with HTML syntax.
