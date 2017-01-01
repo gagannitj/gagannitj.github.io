@@ -1,5 +1,4 @@
 ---
 layout: default
 ---
-'''html
-<img src="~/assets/Images/logo_suntrails.jpg" />
+![](https://raw.githubusercontent.com/gagannitj/gagannitj.github.io/master/assets/images/Suntrails/ST1.jpg)
