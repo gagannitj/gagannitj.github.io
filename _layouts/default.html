@@ -22,12 +22,6 @@
           <h1>Sun Trail Travels</h1>
         </a>
         <h2>Your travel companion in Ladakh!</h2>
-        {% if site.github.is_project_page %}
-          <a href="{{ site.github.repository_url }}" class="button"><small>View project on</small> GitHub</a>
-        {% endif %}
-        {% if site.github.is_user_page %}
-          <a href="{{ site.github.repository_url }}" class="button"><small>Follow me on</small> GitHub</a>
-        {% endif %}
       </div>
     </header>
 
@@ -38,16 +32,9 @@
         </section>
 
         <aside id="sidebar">
-          {% if site.show_downloads %}
             <a href="http://goo.gl/forms/U1vZinkcHoxusfd63" class="Enguire">
               Book Now
             </a>
-          {% endif %}
-
-          {% if site.github.is_project_page %}
-            <p class="repo-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</p>
-          {% endif %}
-
           <p>Contact Us: <a href="mailto:suntrailtravels@gmail.com">suntrailtravels@gmail.com</a>.</p>
         </aside>
       </div>
