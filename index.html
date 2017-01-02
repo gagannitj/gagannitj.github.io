@@ -25,7 +25,43 @@
       </div>
     </header>
 
-    <div id="content-wrapper">
+<font style="font-size:27px" color="#000000" face="Copperplate Gothic Bold">Our Packages</font></div>
+<div id="ConveyerBelt1Extension" style="position:absolute;overflow:hidden;left:36px;top:78px;width:564px;height:533px;z-index:1">
+<div id="ConveyerBelt1" style="white-space:nowrap;overflow:hidden;height:100%;width:100%;">
+<table cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td id="cb1_id1" height="533" valign="bottom" align="center">
+<img border="0" src="https://raw.githubusercontent.com/gagannitj/gagannitj.github.io/master/assets/images/Suntrails/0.jpg" alt="" hspace="5"><img border="0" src="https://raw.githubusercontent.com/gagannitj/gagannitj.github.io/master/assets/images/Suntrails/1.jpg" alt="" hspace="5"><img border="0" src="https://raw.githubusercontent.com/gagannitj/gagannitj.github.io/master/assets/images/Suntrails/2.jpg" alt="" hspace="5"></td>
+<td id="cb1_id2" valign="bottom"></td>
+</tr>
+</table>
+</div>
+<script type="text/javascript">
+   var speed = 30;
+   var ConveyerBelt1Extension = document.getElementById('ConveyerBelt1Extension');
+   var ConveyerBelt1 = document.getElementById('ConveyerBelt1');
+   var cb1_id1 = document.getElementById('cb1_id1');
+   var cb1_id2 = document.getElementById('cb1_id2');
+   var i = 0;
+   var n = Math.floor(ConveyerBelt1Extension.offsetWidth/cb1_id1.offsetWidth);
+   for (i=0; i<=n; i++)
+   {
+      cb1_id2.innerHTML += cb1_id1.innerHTML;
+   }
+
+   function ConveyerBelt1Move()
+   {
+      if (ConveyerBelt1.scrollLeft >= cb1_id1.offsetWidth)
+         ConveyerBelt1.scrollLeft -= cb1_id1.offsetWidth;
+      else
+            ConveyerBelt1.scrollLeft++;
+   }
+   var ConveyerBelt1Timer = setInterval(ConveyerBelt1Move, speed);
+   ConveyerBelt1.onmouseover = function() { clearInterval(ConveyerBelt1Timer); }
+   ConveyerBelt1.onmouseout = function() { ConveyerBelt1Timer = setInterval(ConveyerBelt1Move, speed); }
+</script>
+</div>
+
       <div class="inner clearfix">
         <section id="main-content">
           <p><img src="https://raw.githubusercontent.com/gagannitj/gagannitj.github.io/master/assets/images/Suntrails/ST1.jpg" alt="" /></p>
